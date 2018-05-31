@@ -84,6 +84,15 @@ article {
     
 }
 
+footer {
+    background-color: aqua;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
 /** RESPONSIVE **/
 /* Mobile */
 @media screen and (max-width : 600px){
