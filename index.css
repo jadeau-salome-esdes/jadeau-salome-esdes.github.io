@@ -50,6 +50,27 @@ header h1:hover{
 
 }
 
+/** ABOUT */
+#about article{
+    width: 100%;
+    padding: 15px;
+    background-color: gray;
+    color: aliceblue;
+}
+
+#about h3{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: red;
+}
+
+#about p b{
+    font-weight: 900;
+}
+
+#about hr{
+    width: 80%;
+}
 
 section {
     min-height: 100%;
@@ -66,7 +87,9 @@ section a {
     margin-bottom: 5px;
     justify-content: space-between;
 }
-article {
+
+/** MAIN PAGE */
+#main-page article {
     color:white;
     background-image: url("img/manuel.jpg");
     background-position: center;
