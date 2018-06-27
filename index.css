@@ -89,7 +89,17 @@ section {
 
 /** MAIN PAGE */
 #main-page{
-    padding: 50px;
+    background-color: white;
+    height: cover;
+    width: cover;
+    display: flex;
+    flex-wrap : wrap;
+    flex-direction: ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
 }
 
 #main-page article {
@@ -130,9 +140,9 @@ section {
     height: cover;
     width: cover;
     display: flex;
-    flex-wrap : nowrap;
+    flex-wrap : wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     align-items: center;
     align-content: center;
@@ -150,9 +160,9 @@ section {
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     align-items: center;
 }
@@ -190,6 +200,7 @@ footer {
     }
     section a{
         width: 80%;
+        margin: 10px;
     }
 }
 
@@ -197,6 +208,7 @@ footer {
 @media only screen and (min-width: 600px) and (max-width: 900px){
     section a{
         width: 37%;
+        margin: 20px;
     }
 }
 
