@@ -30,7 +30,7 @@ header {
     height : 100%;
 }
 
-header button{
+.home{
     color:black;
     background-color: rgba(240, 248, 255, 0.459);
     background-clip: border-box;
@@ -38,14 +38,13 @@ header button{
     border-top: firebrick dotted 1px;
     padding: 10px;
     cursor: pointer;
-    transition: all 0,3s cubic-bezier(.78, .07, .1, .78);
+    transition: all 0.3s cubic-bezier(.78, .07, .1, .78);
     box-shadow: 10px 5px 5px rgba(240, 248, 255, 0.459);
-    text-shadow: pink;
     animation: enter 2s ease-in-out;
     font-size: 40px;
 }
 
-header button:hover{
+.home:hover{
     background-color: rgba(50, 50, 50, 0.76);
     color: white;
     border-left: violet solid 10px;
@@ -81,7 +80,7 @@ header button:hover{
 
 section {
     display: flex;
-    flex-direction: inline;
+    flex-direction: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
@@ -90,11 +89,9 @@ section {
 /** MAIN PAGE */
 #main-page{
     background-color: white;
-    height: cover;
-    width: cover;
     display: flex;
     flex-wrap : wrap;
-    flex-direction: ;
+    flex-direction: center;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -137,8 +134,6 @@ section {
 /** CV */
 #CV{
     background-color: white;
-    height: cover;
-    width: cover;
     display: flex;
     flex-wrap : wrap;
     flex-direction: row;
