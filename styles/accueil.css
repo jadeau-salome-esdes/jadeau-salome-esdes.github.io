@@ -89,45 +89,54 @@ body{
 
 #about p{
 
-    margin: 0;
+    margin-top: 20px;
+    margin-left: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     text-align: justify;
     font-size: 17px;
+    flex: 1;
+    min-width: 60%;
 }
 
 #about p b{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
-    font-weight: 400px;
+    font-weight: 650;
 }
 
 /** PALUDIER */
 #paludier{
     display: flex;
-    justify-content: row;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 #imgpaludier{
-    width: 25%;
-    height: 25%;
-    margin-right: 30px;
+    width: 350px;
+    height: 225px;
+    min-width: 200px;
+    align-items: center;
 }
 
 /** RECOLTE*/
 #recolte{
     display: flex;
-    justify-content: row;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 #marais{
-    width: 25%;
-    height: 25%;
-    margin-right: 30px;
+    width: 350px;
+    height: 225px;
+    min-width: 200px;
+    align-items: center;
 }
 
 footer {

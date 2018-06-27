@@ -14,6 +14,7 @@ a:link{
 
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -69,10 +70,12 @@ header {
     text-decoration: underline;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
 
 #about p{
-    margin: 0;
+    margin: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     text-align: justify;
@@ -82,7 +85,7 @@ header {
 #about p b{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
-    font-weight: 400px;
+    font-weight: 650;
 }
 
 #about hr{
@@ -98,9 +101,11 @@ section {
 
 /** MAIN PAGE */
 #main-page{
+    width: cover;
     background-color: white;
     display: flex;
     flex-wrap : wrap;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -113,11 +118,8 @@ section {
     background-position: center;
     background-size: cover;
     padding:10px;
-    margin: 10px;
     width: 100%;
     height: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,11 +128,15 @@ section {
 }
 
 #main-page a {
-    width: 23%;
+    width: 300px;
     margin: 5%;
     margin-top: 5px;
     margin-bottom: 5px;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 #article-1{ background-image: url("./img/hotelvilleLB.png")}
@@ -203,7 +209,6 @@ footer {
       justify-content: center;
     }
     section a{
-        width: 80%;
         margin: 10px;
     }
 }
