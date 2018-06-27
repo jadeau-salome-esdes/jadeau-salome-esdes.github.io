@@ -101,7 +101,6 @@ section {
 
 /** MAIN PAGE */
 #main-page{
-    width: cover;
     background-color: white;
     display: flex;
     flex-wrap : wrap;
